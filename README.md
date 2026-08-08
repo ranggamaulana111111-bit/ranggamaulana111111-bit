@@ -2,7 +2,7 @@
 <h3 align="center"><em>(a.k.a Bos Rabeg)</em></h3>
 
 <p align="center">
-  <strong>🎯 AI-Augmented Solutions Architect | Information Systems Student @ UNPAM Serang | Full-Stack & DevOps Engineer</strong>
+  <strong> AI-Augmented Solutions Architect | Information Systems Student @ UNPAM Serang | Full-Stack & DevOps Engineer</strong>
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ---
 
-## 🏛️ Pilar Ekosistem Teknologi & Sistem Produksi
+##  Pilar Ekosistem Teknologi & Sistem Produksi
 
 ### **1. Prodesa — Portal Desa Digital (GovTech)** `AKTIF`
 **Live Demo:** https://desa.ranggamrw.my.id
@@ -59,7 +59,7 @@ Platform virtualisasi, otomatisasi infrastruktur, dan lingkungan penguji (*stagi
 
 ---
 
-## 🛠️ Stack Teknologi & Kompetensi Inti
+##  Stack Teknologi & Kompetensi Inti
 
 <table>
   <tr>
@@ -74,7 +74,7 @@ Platform virtualisasi, otomatisasi infrastruktur, dan lingkungan penguji (*stagi
     </td>
   </tr>
   <tr>
-    <td width="30%"><strong>🎨 Frontend & Mobile</strong></td>
+    <td width="30%"><strong> Frontend & Mobile</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
       <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
@@ -85,7 +85,7 @@ Platform virtualisasi, otomatisasi infrastruktur, dan lingkungan penguji (*stagi
     </td>
   </tr>
   <tr>
-    <td width="30%"><strong>🔐 Cloud, Infra & DevOps</strong></td>
+    <td width="30%"><strong> Cloud, Infra & DevOps</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Proxmox-E57008?style=flat-square&logo=proxmox&logoColor=white" />
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
@@ -96,7 +96,7 @@ Platform virtualisasi, otomatisasi infrastruktur, dan lingkungan penguji (*stagi
     </td>
   </tr>
   <tr>
-    <td width="30%"><strong>🔗 Integrasi & API</strong></td>
+    <td width="30%"><strong> Integrasi & API</strong></td>
     <td>
       <img src="https://img.shields.io/badge/REST_API-4285F4?style=flat-square" />
       <img src="https://img.shields.io/badge/MikroTik_API-FF8C00?style=flat-square&logo=mikrotik&logoColor=white" />
@@ -108,24 +108,24 @@ Platform virtualisasi, otomatisasi infrastruktur, dan lingkungan penguji (*stagi
 
 ---
 
-## 📱 Aplikasi Mobile & Utilitas Eksperimental
+##  Aplikasi Mobile & Utilitas Eksperimental
 
 | Proyek | Tujuan Utama | Stack Teknologi | Status |
 | :--- | :--- | :--- | :--- |
-| 🍕 **FoodMate** | POS & manajemen pesanan bisnis kuliner | Flutter • Dart • Firebase | Aktif |
-| 🛍️ **Kasir App** | Point-of-Sale dengan pelacakan inventaris lokal | Flutter • Dart • SQLite | Produksi |
-| 🏥 **AntrianRS** | Sistem manajemen antrean rumah sakit real-time | Flutter • Dart • REST API | Aktif |
-| ☕ **Kopken** | Inventory & sales tracking kedai kopi | Flutter • Dart | Aktif |
-| ✈️ **Travel List** | Perencana perjalanan & agregator reservasi | Flutter • Dart | Maintenance |
+|  **FoodMate** | POS & manajemen pesanan bisnis kuliner | Flutter • Dart • Firebase | Aktif |
+|  **Kasir App** | Point-of-Sale dengan pelacakan inventaris lokal | Flutter • Dart • SQLite | Produksi |
+|  **AntrianRS** | Sistem manajemen antrean rumah sakit real-time | Flutter • Dart • REST API | Aktif |
+|  **Kopken** | Inventory & sales tracking kedai kopi | Flutter • Dart | Aktif |
+|  **Travel List** | Perencana perjalanan & agregator reservasi | Flutter • Dart | Maintenance |
 
 ---
 
 ## ✨ Pencapaian Utama & Impact Metric
 
-### **🎯 Dampak Bisnis**
-- ✅ Membangun **2 platform produksi utama** (Prodesa & Alkonek) yang melayani **10+ instansi/organisasi**.
-- ✅ Memangkas alur birokrasi dokumen desa hingga **80%** melalui sistem verifikasi digital.
-- ✅ Mengotomatiskan manajemen isolir dan penagihan ISP, menghemat **20+ jam/bulan** waktu operasional per client.
+### ** Dampak Bisnis**
+-  Membangun **2 platform produksi utama** (Prodesa & Alkonek) yang melayani **10+ instansi/organisasi**.
+-  Memangkas alur birokrasi dokumen desa hingga **80%** melalui sistem verifikasi digital.
+-  Mengotomatiskan manajemen isolir dan penagihan ISP, menghemat **20+ jam/bulan** waktu operasional per client.
 
 ### **🏗️ Keunggulan Teknis**
 - ✅ Merancang arsitektur **Triple-Fallback** untuk penanganan koneksi jaringan mikro-servis yang toleran terhadap *downtime*.
