@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Rangga Maulana Ramadhan Wiharto
+#  Rangga Maulana Ramadhan Wiharto
 ### *(a.k.a Bos Rabeg)*
 
 **High-Level Analyst | Information Systems Student @ UNPAM Serang | Future Businessman**
