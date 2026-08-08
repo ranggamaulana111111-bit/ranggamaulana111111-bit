@@ -2,7 +2,7 @@
 <h3 align="center"><em>(a.k.a Bos Rabeg)</em></h3>
 
 <p align="center">
-  <strong>🎯 High-Level Analyst | Information Systems Student @ UNPAM Serang | Solutions Architect</strong>
+  <strong>🎯 AI-Augmented Solutions Architect | Information Systems Student @ UNPAM Serang | Full-Stack & DevOps Engineer</strong>
 </p>
 
 <p align="center">
@@ -11,44 +11,51 @@
 </p>
 
 <p align="center">
-  <a href="https://desa.ranggamrw.my.id"><img src="https://img.shields.io/badge/DEMO_LANGSUNG-Prodesa-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Prodesa Live" /></a>
-  <a href="https://billing.alkonek.online"><img src="https://img.shields.io/badge/DEMO_LANGSUNG-Alkonek_Billing-007ACC?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Alkonek Live" /></a>
-  <a href="https://ranggamrw.my.id"><img src="https://img.shields.io/badge/PORTOFOLIO-ranggamrw.my.id-FF6B6B?style=for-the-badge&logo=globe&logoColor=white" alt="Portofolio" /></a>
+  <a href="https://desa.ranggamrw.my.id"><img src="https://img.shields.io/badge/DEMO-Prodesa_(GovTech)-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Prodesa Live" /></a>
+  <a href="https://billing.alkonek.online"><img src="https://img.shields.io/badge/DEMO-Alkonek_Billing_(B2B)-007ACC?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Alkonek Live" /></a>
+  <a href="https://ranggamrw.my.id"><img src="https://img.shields.io/badge/INFRA-RabegLab_(Private_Cloud)-FF6B6B?style=for-the-badge&logo=proxmox&logoColor=white" alt="RabegLab" /></a>
 </p>
 
 ---
 
-## 🏛️ Sistem Produksi & Penggelaran (Deployment)
+## 🏛️ Pilar Ekosistem Teknologi & Sistem Produksi
 
-### **1. Prodesa — Portal Desa Digital** `AKTIF` 
-**Tautan Langsung:** https://desa.ranggamrw.my.id
+### **1. Prodesa — Portal Desa Digital (GovTech)** `AKTIF`
+**Live Demo:** https://desa.ranggamrw.my.id
 
-Platform **administrasi & tata kelola desa digital** komprehensif yang melayani masyarakat pedesaan di Indonesia dengan operasional berbasis digital.
+Platform administrasi & tata kelola desa digital komprehensif untuk otomatisasi dokumen kependudukan dan layanan publik desa.
 
-| Aspek | Detail |
+| Aspek | Detail Terukur |
 | :--- | :--- |
-| **Stack Teknologi** | Laravel 11 • PHP 8.2 • MySQL 8 • Tailwind CSS • Alpine.js • Telegram Bot API |
-| **Fitur Utama** | • Enkripsi AES-256-CBC untuk data sensitif<br>• Kontrol Akses Berbasis Peran (RBAC) dengan 30+ lapisan hak akses<br>• Integrasi notifikasi Telegram untuk peringatan *real-time*<br>• Manajemen dokumen multi-otoritas (surat-menyurat)<br>• Manajemen data kependudukan & data pemilih<br>• Dashboard pelaporan keuangan<br>• Antarmuka web responsif seluler dengan formulir dinamis |
-| **Arsitektur** | Pola MVC dengan pemisahan *service layer* • Antrean pekerjaan (*job queuing*) untuk tugas asinkron • Otentikasi & pemantauan berbasis *middleware* • Berbasis *API-first* |
-| **Performa** | Waktu respons di bawah 500ms • Kueri basis data teroptimasi dengan pengindeksan • *Lazy-load* untuk aset & gambar |
-| **Keamanan** | Proteksi CSRF • Pencegahan SQL Injection • Pembatasan laju kueri (*Rate limiting*) • Validasi & sanitasi input |
-| **Pengguna Dilayani** | 10+ administrasi desa di wilayah Kabupaten/Kota Serang |
+| **Core Stack** | Laravel 11 • PHP 8.2 • MySQL 8 • Redis • Tailwind CSS • Alpine.js • Telegram Bot API |
+| **Keamanan & Fitur** | Enkripsi simetris **AES-256-CBC** (Protection Data NIK) • RBAC 30+ Lapisan • Management Surat Dinamis |
+| **Dampak & Performa** | Melayani **10+ Desa** di Kab/Kota Serang • Response Time **< 500ms** • Memangkas birokrasi hingga **80%** |
 
 ---
 
-### **2. Alkonek Billing — Mesin Billing Multi-Tenant ISP** `AKTIF`
-**Tautan Langsung:** https://billing.alkonek.online
+### **2. Alkonek Billing — Multi-Tenant ISP Engine** `AKTIF`
+**Live Demo:** https://billing.alkonek.online
 
-**Sistem manajemen jaringan & penagihan (*billing*)** kelas enterprise untuk Penyedia Jasa Internet (ISP), mengelola seluruh siklus pelanggan dari pendaftaran hingga penerbitan faktur.
+Mesin manajemen jaringan & penagihan (*billing*) kelas enterprise untuk ISP & RT-RW Net dengan *self-healing connection*.
 
-| Aspek | Detail |
+| Aspek | Detail Terukur |
 | :--- | :--- |
-| **Stack Teknologi** | PHP • Laravel • MySQL • REST API • MikroTik RouterOS API • Redis Caching |
-| **Modul Utama** | • **Mesin Billing**: Pembuatan faktur otomatis, pemrosesan pembayaran, kalkulasi denda keterlambatan<br>• **Integrasi Jaringan**: Sinkronisasi status koneksi *real-time* dari MikroTik<br>• **Manajemen Pelanggan**: Tingkat paket bertingkat, pembatasan *bandwidth*, pembaruan paket<br>• **Otomatisasi**: Isolasi otomatis saat menunggak, manajemen antrean, alur kerja koneksi ulang<br>• **Pelaporan**: Analitik pendapatan, analisis rasio kehilangan pelanggan (*churn*), visualisasi topologi jaringan |
-| **Arsitektur** | Pemrosesan asinkron berbasis antrean (Laravel Horizon) • Manajemen status pelanggan berbasis *event* • Listener *webhook real-time* untuk *event* MikroTik |
-| **Performa** | Menangani 100+ siklus *billing* secara bersamaan • Sinkronisasi MikroTik di bawah 1 detik • Operasi massal (*batch*) |
-| **Keunggulan Utama** | • Dukungan *multi-tenant* (beberapa operator ISP dalam satu platform)<br>• Konfigurasi struktur tarif kustom per *tenant*<br>• Pemeriksaan redundansi jaringan & mekanisme *failover* |
-| **Klien** | Alkonek ISP • Mitra telekomunikasi regional |
+| **Core Stack** | PHP/Laravel • MikroTik RouterOS API (REST/SSH) • Redis Queue • Webhook Listeners |
+| **Keunggulan Sistem** | **Triple-Fallback Mechanism** (Tunnel → Local IP → SSH) • Otomatisasi Isolir/Firewall NAT • Multi-Tenant Architecture |
+| **Dampak & Performa** | **100+ Siklus Billing Concurrent** • Sinkronisasi Router **< 1 Detik** • Menghemat **20+ Jam/Bulan** per operator |
+
+---
+
+### **3. RabegLab — Private Cloud & Infrastructure R&D** `AKTIF`
+**Lab Status:** Private Hybrid Infrastructure
+
+Platform virtualisasi, otomatisasi infrastruktur, dan lingkungan penguji (*staging*) terisolasi untuk seluruh ekosistem aplikasi.
+
+| Aspek | Detail Terukur |
+| :--- | :--- |
+| **Core Stack** | Proxmox VE • Docker Orchestration • Ansible • OpenTofu / Terraform • MikroTik RouterOS • Grafana |
+| **Arsitektur & Keamanan**| Zero-Trust Network Segmentation • Automated CI/CD Deployment • Monitoring Latensi & Traffic Real-time |
+| **Fungsi Utama** | Orkestrasi kontainer, manajemen *resource allocation*, serta pusat R&D otomatisasi server Linux |
 
 ---
 
@@ -56,7 +63,7 @@ Platform **administrasi & tata kelola desa digital** komprehensif yang melayani 
 
 <table>
   <tr>
-    <td width="30%"><strong>🔧 Backend & Basis Data</strong></td>
+    <td width="30%"><strong>🔧 Backend & Data Engine</strong></td>
     <td>
       <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
       <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
@@ -78,22 +85,22 @@ Platform **administrasi & tata kelola desa digital** komprehensif yang melayani 
     </td>
   </tr>
   <tr>
-    <td width="30%"><strong>🔐 Infrastruktur & DevOps</strong></td>
+    <td width="30%"><strong>🔐 Cloud, Infra & DevOps</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white" />
-      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
-      <img src="https://img.shields.io/badge/MikroTik-000000?style=flat-square&logo=mikrotik&logoColor=white" />
+      <img src="https://img.shields.io/badge/Proxmox-E57008?style=flat-square&logo=proxmox&logoColor=white" />
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/cPanel-FF6B35?style=flat-square&logo=cpanel&logoColor=white" />
+      <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" />
+      <img src="https://img.shields.io/badge/MikroTik-000000?style=flat-square&logo=mikrotik&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux_Mint_/_Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
     </td>
   </tr>
   <tr>
     <td width="30%"><strong>🔗 Integrasi & API</strong></td>
     <td>
       <img src="https://img.shields.io/badge/REST_API-4285F4?style=flat-square" />
-      <img src="https://img.shields.io/badge/Telegram_Bot-0088cc?style=flat-square&logo=telegram&logoColor=white" />
       <img src="https://img.shields.io/badge/MikroTik_API-FF8C00?style=flat-square&logo=mikrotik&logoColor=white" />
+      <img src="https://img.shields.io/badge/Telegram_Bot_API-0088cc?style=flat-square&logo=telegram&logoColor=white" />
       <img src="https://img.shields.io/badge/Webhooks-9B59B6?style=flat-square" />
     </td>
   </tr>
@@ -101,95 +108,45 @@ Platform **administrasi & tata kelola desa digital** komprehensif yang melayani 
 
 ---
 
-## 📱 Aplikasi Mobile & Utilitas
+## 📱 Aplikasi Mobile & Utilitas Eksperimental
 
-| Proyek | Tujuan | Stack | Status |
+| Proyek | Tujuan Utama | Stack Teknologi | Status |
 | :--- | :--- | :--- | :--- |
-| 🍕 **FoodMate** | POS & manajemen pesanan untuk bisnis kuliner | Flutter • Dart • Firebase | Aktif |
-| 🛍️ **Kasir** | Sistem Point-of-Sale dengan pelacakan inventaris | Flutter • Dart • SQLite | Produksi |
-| ✈️ **Aplikasi Travel List** | Perencana rencana perjalanan & agregator pemesanan | Flutter • Dart | Pemeliharaan |
-| 🏥 **AntrianRS** | Sistem manajemen antrean rumah sakit | Flutter • Dart • REST API | Aktif |
-| ☕ **Kopken** | Manajemen kedai kopi (inventaris + penjualan) | Flutter • Dart | Aktif |
+| 🍕 **FoodMate** | POS & manajemen pesanan bisnis kuliner | Flutter • Dart • Firebase | Aktif |
+| 🛍️ **Kasir App** | Point-of-Sale dengan pelacakan inventaris lokal | Flutter • Dart • SQLite | Produksi |
+| 🏥 **AntrianRS** | Sistem manajemen antrean rumah sakit real-time | Flutter • Dart • REST API | Aktif |
+| ☕ **Kopken** | Inventory & sales tracking kedai kopi | Flutter • Dart | Aktif |
+| ✈️ **Travel List** | Perencana perjalanan & agregator reservasi | Flutter • Dart | Maintenance |
 
 ---
 
-## 🌐 Sistem Web & Enterprise
-
-| Repositori | Tujuan | Teknologi | Skala |
-| :--- | :--- | :--- | :--- |
-| **desamoderen** | Dashboard admin desa modern (iterasi awal Prodesa) | Laravel • MySQL • Bootstrap | 5+ desa |
-| **billing** | Mesin *billing* inti (pondasi sistem Alkonek) | PHP • Laravel • MySQL | 100+ pelanggan |
-| **rabegnet-billing** | Modul *billing* ISP terspesialisasi | Laravel • MikroTik API | Multi-tenant |
-
----
-
-## 🖥️ Infrastruktur & Jaringan
-
-**Keahlian:** Pemantauan jaringan, pengujian latensi, administrasi server, konfigurasi MikroTik RouterOS
-
-| Domain | Proyek | Fokus |
-| :--- | :--- | :--- |
-| **Homelab** | Lingkungan server pribadi | Ubuntu • Docker • Orkestrasi Layanan |
-| **Speedtest** | Pemantauan performa jaringan | Analisis Latensi • Pengujian Bandwidth • Visualisasi Topologi |
-| **Admin Jaringan** | Setup & pemeliharaan infrastruktur ISP | Konfigurasi MikroTik • DHCP/DNS • Setup VPN |
-
----
-
-## ✨ Pencapaian Utama & Sorotan
+## ✨ Pencapaian Utama & Impact Metric
 
 ### **🎯 Dampak Bisnis**
-- ✅ Membangun **2 sistem produksi** yang melayani **10+ organisasi** dengan **100+ pengguna aktif bersamaan**
-- ✅ Mengurangi birokrasi kertas administrasi desa hingga **80%** melalui digitalisasi Prodesa
-- ✅ Mengotomatiskan alur kerja *billing* ISP, menghemat **20+ jam/bulan** per operator
+- ✅ Membangun **2 platform produksi utama** (Prodesa & Alkonek) yang melayani **10+ instansi/organisasi**.
+- ✅ Memangkas alur birokrasi dokumen desa hingga **80%** melalui sistem verifikasi digital.
+- ✅ Mengotomatiskan manajemen isolir dan penagihan ISP, menghemat **20+ jam/bulan** waktu operasional per client.
 
-### **🏗️ Pencapaian Teknis**
-- ✅ Menerapkan **keamanan kelas enterprise** (enkripsi AES-256, RBAC, *rate limiting*)
-- ✅ Merancang **arsitektur terukur** yang menangani lonjakan beban dengan *Redis caching* & antrean pekerjaan
-- ✅ Mengintegrasikan **MikroTik RouterOS API** untuk manajemen status jaringan secara *real-time*
-- ✅ Membangun **otomatisasi Bot Telegram** untuk notifikasi instan di 10+ desa
-
-### **📦 Penguasaan Full-Stack**
-- ✅ **Arsitektur**: Desain skema, kontrak API, model keamanan
-- ✅ **Backend**: Layanan PHP/Laravel, optimasi basis data, sistem antrean
-- ✅ **Frontend**: UI responsif dengan Alpine.js & Tailwind CSS
-- ✅ **Mobile**: Aplikasi Flutter lintas platform untuk iOS & Android
-- ✅ **DevOps**: Manajemen server Linux, Docker, hosting cPanel
-- ✅ **Jaringan**: Administrasi MikroTik, infrastruktur ISP
+### **🏗️ Keunggulan Teknis**
+- ✅ Merancang arsitektur **Triple-Fallback** untuk penanganan koneksi jaringan mikro-servis yang toleran terhadap *downtime*.
+- ✅ Menerapkan pengerasan data sensitif kependudukan dengan standar enkripsi **AES-256-CBC**.
+- ✅ Membangun infrastruktur lab mandiri (**RabegLab**) berbasis Proxmox & Docker untuk otomatisasi pengujian sistem.
 
 ---
 
-## 📊 Aktivitas & Kontribusi GitHub
+## 📊 Aktivitas & Statistics GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ranggamaulana111111-bit&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ranggamaulana111111-bit&layout=compact&theme=radical&hide_border=true" width="48%" alt="Top Languages" />
 </p>
 
-**Bahasa Berdasarkan Tingkat Penguasaan:**
-- **PHP** — Lanjutan (*enterprise systems*, desain *framework*)
-- **Dart** — Menengah (aplikasi Flutter, desain berfokus *mobile*)
-- **MySQL/SQL** — Lanjutan (optimasi, normalisasi, migrasi)
-- **Bash/Linux** — Menengah (admin server, skrip otomatisasi)
-
 ---
 
-## 🎓 Pendidikan & Pembelajaran Berkelanjutan
+## 🎓 Pendidikan & Continuous Learning
 
-- 🎓 **Mahasiswa Sistem Informasi** @ UNPAM Serang
-- 📚 Pengembang *full-stack* otodidak melalui proyek-proyek produksi nyata
-- 🔍 Pembelajar aktif: Ekosistem Laravel, *framework* Flutter, protokol jaringan
-
----
-
-## 🚀 Bidang Keahlian
-
-| Kategori | Keahlian |
-| :--- | :--- |
-| **Pengembangan Web** | Full-stack Laravel/PHP • Desain REST API • Skema basis data • Praktik terbaik keamanan |
-| **Pengembangan Mobile** | Flutter lintas platform • Pengetahuan native Android/iOS • Desain *offline-first* |
-| **Desain Sistem** | Arsitektur terukur • Sistem *multi-tenant* • Pemrosesan berbasis *event* • Strategi *caching* |
-| **Infrastruktur** | Admin Ubuntu/Linux • Setup MikroTik • Dasar-dasar Docker • Pengerasan & keamanan server |
-| **ISP/Telekomunikasi** | Logika *billing* • Pemantauan jaringan • Manajemen siklus hidup pelanggan • Otomatisasi pelanggan |
+- 🎓 **Mahasiswa Sistem Informasi** @ Universitas Pamulang (UNPAM) Serang
+- 📚 Continuous Self-Learner: Architecture Design, High-Availability Systems, Network Security, & Cloud Virtualization.
 
 ---
 
@@ -204,8 +161,4 @@ Platform **administrasi & tata kelola desa digital** komprehensif yang melayani 
 
 ---
 
-<h3 align="center">💭 <em>Selalu mengeksekusi. Selalu belajar. Selalu berkembang.</em></h3>
-
-<p align="center">
-  <strong>"70% eksekusi hari ini adalah prioritas kami — sempurna adalah musuh dari progress."</strong>
-</p>
+<h3 align="center">💭 <em>"70% eksekusi hari ini jauh lebih bernilai daripada kesempurnaan yang tak pernah selesai."</em></h3>
