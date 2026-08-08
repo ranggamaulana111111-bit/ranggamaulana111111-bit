@@ -3,7 +3,7 @@
 #  Rangga Maulana Ramadhan Wiharto
 ### *(a.k.a Bos Rabeg)*
 
-**High-Level Analyst | Information Systems Student @ UNPAM Serang | Future Businessman**
+**High-Level Analyst | Information Systems Student @ UNPAM Serang | Small-scale entrepreneurs**
 
 > *"Menganalisis dengan tajam, mengeksekusi tanpa ragu. **70% Eksekusi** hari ini jauh lebih bernilai daripada terjebak dalam Kemandekan Sempurna."*
 
