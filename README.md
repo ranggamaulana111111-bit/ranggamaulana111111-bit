@@ -2,7 +2,7 @@
 <h3 align="center"><em>(a.k.a Bos Rabeg)</em></h3>
 
 <p align="center">
-  <strong>🎯 High-Level Analyst | Information Systems Student @ UNPAM Serang | Full-Stack Entrepreneur</strong>
+  <strong>🎯 High-Level Analyst | Information Systems Student @ UNPAM Serang | Solutions Architect</strong>
 </p>
 
 <p align="center">
