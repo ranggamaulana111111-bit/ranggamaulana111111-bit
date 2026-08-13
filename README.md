@@ -29,7 +29,7 @@ Platform administrasi & tata kelola desa digital komprehensif untuk otomatisasi 
 | :--- | :--- |
 | **Core Stack** | Laravel 11 • PHP 8.2 • MySQL 8 • Redis • Tailwind CSS • Alpine.js • Telegram Bot API |
 | **Keamanan & Fitur** | Enkripsi simetris **AES-256-CBC** (Protection Data NIK) • RBAC 30+ Lapisan • Management Surat Dinamis |
-| **Dampak & Performa** | Melayani **10+ Desa** di Kab/Kota Serang • Response Time **< 500ms** • Memangkas birokrasi hingga **80%** |
+| **Dampak & Performa** | Melayani **Desa** • Response Time **< 500ms** • Memangkas birokrasi hingga **80%** |
 
 ---
 
