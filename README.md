@@ -5,7 +5,7 @@
 <h3 align="center"><em>🎭 a.k.a <strong>Bos Rabeg</strong></em></h3>
 
 <p align="center">
-  <strong>Information Systems Student @ UNPAM Serang</strong> | <strong>Full-Stack Engineer</strong> | <strong>DevOps Enthusiast</strong> | <strong>GovTech Builder</strong>
+  <strong>Information Systems Student @ UNPAM Serang</strong> 
   <br/>
   <em>Transforming Ideas into Scalable, Production-Ready Solutions</em>
 </p>
