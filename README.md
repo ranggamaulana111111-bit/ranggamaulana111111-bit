@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00C7B7&center=true&width=600&lines=Rangga+Maulana+Ramadhan+Wiharto;AI-Augmented+Solutions+Architect;Full-Stack+%26+DevOps+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00C7B7&center=true&width=600&lines=Rangga+Maulana+Ramadhan+Wiharto;AI-Augmented+Solutions+Architect" alt="Typing SVG" />
 </h1>
 
 <h3 align="center"><em>🎭 a.k.a <strong>Bos Rabeg</strong></em></h3>
