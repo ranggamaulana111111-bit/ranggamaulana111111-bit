@@ -1,30 +1,30 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00C7B7&center=true&width=600&lines=Rangga+Maulana+Ramadhan+Wiharto;Tukang Pecut Ai" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00C7B7&center=true&width=600&lines=Rangga+Maulana+Ramadhan+Wiharto;Tukang+Pecut+AI" alt="Typing SVG" />
 </h1>
 
 <h3 align="center"><em>🎭 a.k.a <strong>Bos Rabeg</strong></em></h3>
 
 <p align="center">
-  <strong>Information Systems Student @ UNPAM Serang</strong> 
+  <strong>Information Systems Student @ UNPAM Serang</strong>
   <br/>
-  <em>Transforming Ideas into Scalable, Production-Ready Solutions</em>
+  <em>Transforming ideas into reliable, production-ready digital solutions</em>
 </p>
 
 ---
 
 ## 💡 Philosophy
 
-> **"70% eksekusi hari ini jauh lebih bernilai daripada kesempurnaan yang tak pernah selesai."**  
-> — Driven by pragmatism, powered by impact. Not perfection, but progress.
+> **"70% execution today is more valuable than perfection that never gets finished."**
+> — Pragmatic builder. Impact first. Progress over perfection.
 
 ---
 
 ## 🚀 Production Ecosystems
 
-### **1. 🏛️ Prodesa — Digital Village Administration Portal (GovTech)**
-**Status:** ✅ **ACTIVE**  |  **Live:** https://desa.ranggamrw.my.id
+### 1. 🏛️ Prodesa — Digital Village Administration Portal (GovTech)
+**Status:** ✅ Active  |  **Live:** https://desa.ranggamrw.my.id
 
-> Platform otomasi administrasi desa digital yang melayani tata kelola dokumen kependudukan, layanan publik, dan surat-menyurat dinamis dengan keamanan enterprise-grade.
+> A digital village administration platform that automates population document workflows, public service requests, and dynamic correspondence with enterprise-grade security.
 
 <table>
   <tr>
@@ -33,55 +33,55 @@
   </tr>
   <tr>
     <td align="center"><strong>🔒 Security</strong></td>
-    <td><code>AES-256-CBC</code> Encryption • 30+ Role-Based Access Control • Digital Verification System</td>
+    <td><code>AES-256-CBC</code> encryption • 30+ role-based access controls • digital verification system</td>
   </tr>
   <tr>
     <td align="center"><strong>📊 Impact</strong></td>
-    <td>Serving <strong>10+ Villages</strong> • Response Time <strong>&lt;500ms</strong> • <strong>80% Bureaucracy Cut</strong></td>
+    <td>Serving <strong>10+ villages</strong> • response time <strong>&lt;500ms</strong> • <strong>80% bureaucracy reduction</strong></td>
   </tr>
 </table>
 
 ---
 
-### **2. 📡 Alkonek Billing — Multi-Tenant ISP Engine**
-**Status:** ✅ **ACTIVE**  |  **Live:** https://billing.alkonek.online
+### 2. 📡 Alkonek Billing — Multi-Tenant ISP Billing Engine
+**Status:** ✅ Active  |  **Live:** https://billing.alkonek.online
 
-> Enterprise-grade network management & billing engine untuk ISP dan RT-RW Net dengan self-healing connection architecture dan multi-tenant isolation.
+> An enterprise-grade ISP and RT-RW network billing system built for multi-tenant operations, resilient connectivity flows, and automated service management.
 
 <table>
   <tr>
     <td align="center"><strong>🛠️ Tech Stack</strong></td>
-    <td>PHP/Laravel • MikroTik RouterOS API • Redis Queue • Webhook Listeners • MySQL 8</td>
+    <td>PHP/Laravel • MikroTik RouterOS API • Redis Queue • Webhook listeners • MySQL 8</td>
   </tr>
   <tr>
     <td align="center"><strong>⚙️ Architecture</strong></td>
-    <td><strong>Triple-Fallback Mechanism</strong> (Tunnel → Local IP → SSH) • Auto-Isolate • NAT Firewall • Multi-Tenant</td>
+    <td><strong>Triple-fallback mechanism</strong> (Tunnel → Local IP → SSH) • auto-isolate • NAT firewall • multi-tenant isolation</td>
   </tr>
   <tr>
     <td align="center"><strong>📊 Impact</strong></td>
-    <td><strong>100+ Concurrent Billing Cycles</strong> • Router Sync <strong>&lt;1 Second</strong> • <strong>20+ Hours/Month</strong> Time-Saved per Operator</td>
+    <td><strong>100+ concurrent billing cycles</strong> • router sync <strong>&lt;1 second</strong> • <strong>20+ hours/month</strong> saved per operator</td>
   </tr>
 </table>
 
 ---
 
-### **3. 🏗️ RabegLab — Private Cloud & Infrastructure R&D**
-**Status:** ✅ **ACTIVE**  |  **Type:** Private Hybrid Infrastructure
+### 3. 🏗️ RabegLab — Private Cloud & Infrastructure R&D
+**Status:** ✅ Active  |  **Type:** Private hybrid infrastructure
 
-> Virtualisasi, orkestrasi infrastruktur, dan environment staging terisolasi untuk production ecosystem dengan Zero-Trust networking dan automated deployment pipelines.
+> An internal infrastructure lab for virtualization, orchestration, and isolated staging environments, focused on zero-trust networking and automated deployments.
 
 <table>
   <tr>
     <td align="center"><strong>🛠️ Tech Stack</strong></td>
-    <td>Proxmox VE • Docker Orchestration • Ansible • OpenTofu/Terraform • MikroTik RouterOS • Grafana</td>
+    <td>Proxmox VE • Docker orchestration • Ansible • OpenTofu/Terraform • MikroTik RouterOS • Grafana</td>
   </tr>
   <tr>
     <td align="center"><strong>🔐 Architecture</strong></td>
-    <td>Zero-Trust Network Segmentation • Automated CI/CD • Real-time Monitoring • Linux Automation Hub</td>
+    <td>Zero-trust network segmentation • automated CI/CD • real-time monitoring • Linux automation hub</td>
   </tr>
   <tr>
     <td align="center"><strong>🎯 Purpose</strong></td>
-    <td>Container Orchestration • Resource Allocation • System Testing Lab • Infrastructure-as-Code</td>
+    <td>Container orchestration • resource allocation • system testing lab • infrastructure as code</td>
   </tr>
 </table>
 
@@ -91,11 +91,11 @@
 
 | App | Purpose | Tech Stack | Status |
 |-----|---------|-----------|--------|
-| **🍽️ FoodMate** | POS & Restaurant Order Management | Flutter • Dart • Firebase | Active |
-| **💰 Kasir App** | Point-of-Sale with Inventory Tracking | Flutter • Dart • SQLite | Production |
-| **🏥 AntrianRS** | Real-time Hospital Queue Management | Flutter • Dart • REST API | Active |
-| **☕ Kopken** | Coffee Shop Sales & Inventory | Flutter • Dart | Active |
-| **✈️ Travel List** | Travel Planning & Booking Aggregator | Flutter • Dart | Maintenance |
+| **🍽️ FoodMate** | POS & restaurant order management | Flutter • Dart • Firebase | Active |
+| **💰 Kasir App** | Point-of-sale with inventory tracking | Flutter • Dart • SQLite | Production |
+| **🏥 AntrianRS** | Real-time hospital queue management | Flutter • Dart • REST API | Active |
+| **☕ Kopken** | Coffee shop sales & inventory | Flutter • Dart | Active |
+| **✈️ Travel List** | Travel planning & booking aggregator | Flutter • Dart | Maintenance |
 
 ---
 
@@ -150,38 +150,38 @@
 
 ## 🏆 Key Achievements & Impact Metrics
 
-### **📈 Business Impact**
-- ✅ Built & deployed **2 production platforms** serving **10+ organizations**
-- ✅ Reduced village bureaucracy by **80%** through digital verification
-- ✅ Automated ISP billing, saving **20+ hours/month** per operator
-- ✅ Managed **100+ concurrent connections** with sub-second response times
+### 📈 Business Impact
+- ✅ Built and deployed production platforms serving **10+ organizations**
+- ✅ Reduced bureaucracy in village administration by **80%**
+- ✅ Automated ISP billing workflows, saving **20+ hours/month** per operator
+- ✅ Managed **100+ concurrent connections** with sub-second response time
 
-### **🏗️ Technical Excellence**
-- ✅ Architected **Triple-Fallback Network Stack** for high-availability microservices
-- ✅ Implemented **AES-256-CBC encryption** for sensitive data protection
-- ✅ Built private cloud infrastructure (**RabegLab**) for automated testing & deployment
-- ✅ Zero-Trust security architecture across all production systems
+### 🏗️ Technical Excellence
+- ✅ Designed a **triple-fallback network stack** for high availability
+- ✅ Implemented **AES-256-CBC** encryption for sensitive information
+- ✅ Built a private cloud infrastructure lab for testing and deployment automation
+- ✅ Applied zero-trust principles across production systems
 
 ---
 
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ranggamaulana111111-bit&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0d1117&title_color=00C7B7&text_color=ffffff" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ranggamaulana111111-bit&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00C7B7&text_color=ffffff" width="49%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ranggamaulana111111-bit&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0d1117&title_color=00C7B7&text_color=ffffff&icon_color=00C7B7" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ranggamaulana111111-bit&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00C7B7&text_color=ffffff" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ranggamaulana111111-bit&theme=radical&hide_border=true&background=0d1117&ring=00C7B7&fire=00C7B7&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00C7B7&sideLabels=ffffff" width="98%" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ranggamaulana111111-bit&theme=radical&hide_border=true&background=0d1117&ring=00C7B7&fire=00C7B7&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00C7B7&sideLabels=ffffff" alt="GitHub Streak" />
 </p>
 
 ---
 
 ## 🎓 Education & Continuous Learning
 
-- 🎓 **Bachelor in Information Systems** @ Universitas Pamulang (UNPAM) Serang
-- 📚 **Specialization:** Distributed Systems, High-Availability Architecture, Network Security, Cloud Infrastructure
-- 🔬 **Active Learner:** Kubernetes, Advanced DevOps, Infrastructure-as-Code, AI Integration
+- 🎓 **Bachelor of Information Systems** at Universitas Pamulang (UNPAM) Serang
+- 📚 Focused on distributed systems, high-availability architecture, network security, and cloud infrastructure
+- 🔬 Active learner in Kubernetes, advanced DevOps, infrastructure as code, and AI integration
 
 ---
 
@@ -189,7 +189,7 @@
 
 <p align="center">
   <a href="https://ranggamrw.my.id">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-ranggamrw.my.id-1f6feb?style=for-the-badge&logo=globe&logoColor=white" alt="Portofolio" />
+    <img src="https://img.shields.io/badge/🌐_Portfolio-ranggamrw.my.id-1f6feb?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://instagram.com/rangga.mrw">
     <img src="https://img.shields.io/badge/📸_Instagram-@rangga.mrw-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
@@ -206,23 +206,23 @@
 
 ## 📌 Current Focus
 
-- 🔄 Expanding RabegLab infrastructure for AI/ML workloads
-- 🌐 Building scalable multi-tenant platforms with Kubernetes
+- 🔄 Scaling RabegLab for AI/ML workloads
+- 🌐 Building multi-tenant platforms with Kubernetes and cloud-native patterns
 - 🤖 Integrating AI-augmented features into production systems
-- 📊 Advanced monitoring & observability with Prometheus & Grafana
+- 📊 Strengthening observability, monitoring, and infrastructure automation
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=00C7B7&center=true&width=800&lines=Execution+over+Perfection+%7C+Impact+over+Metrics+%7C+Progress+over+Procrastination" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=00C7B7&center=true&width=800&lines=Execution+over+Perfection+%7C+Impact+over+Metrics+%7C+Progress+over+Pause" alt="Closing message" />
 </p>
 
 <p align="center">
-  <strong>📌 Last Updated:</strong> September 2026 | <strong>⭐ Open for Collaborations & Opportunities</strong>
+  <strong>📌 Last Updated:</strong> October 2026 | <strong>⭐ Open for collaborations & opportunities</strong>
 </p>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ranggamaulana111111-bit&style=for-the-badge&color=00C7B7" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=ranggamaulana111111-bit&style=for-the-badge&color=00C7B7" alt="Profile View Counter" />
 </div>
